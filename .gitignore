@@ -1,0 +1,42 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+.gradle/
+*.iml
+*.iws
+*.editorconfig
+*.allure
+*.null
+true/
+
+# Gradle
+log/
+target/
+hooks/pre-push
+null/
+rerun/
+
+# Java
+build/
+out/
+*.class
+*.war
+*.ear
+
+# Log file
+*.log
+*.log.*
+.scannerwork/report-task.txt
+.scannerwork/.sonar_lock
+.scannerwork/
+
+# Postgres - Sonar
+postgres_data/
+sonarqube/
+
+# File System
+.DS_Store
