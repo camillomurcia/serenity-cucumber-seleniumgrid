@@ -18,7 +18,7 @@ ext{
 }
 
 dependencies {
-    testImplementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
+    implementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
             "net.serenity-bdd:serenity-junit5:${serenityCoreVersion}",
             "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}",
             "net.serenity-bdd:serenity-ensure:${serenityCoreVersion}",
@@ -31,8 +31,6 @@ dependencies {
 }
 
 test {
-    useJUnitPlatform()
-    testLogging.showStandardStreams = true
     systemProperties System.getProperties()
 }
 
