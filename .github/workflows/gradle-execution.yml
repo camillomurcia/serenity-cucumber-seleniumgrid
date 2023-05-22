@@ -25,6 +25,7 @@ jobs:
         run: ./gradlew clean test -i -Denvironment=run_action
 
       - name: Deploy Gh pages
+        if: always()
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: gh-pages # The branch the action should deploy to.
