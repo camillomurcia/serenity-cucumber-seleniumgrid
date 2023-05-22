@@ -6,7 +6,7 @@ import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Hit;
 import org.openqa.selenium.Keys;
 
-import static com.test.userinterface.HomeDuckDuckGoPage.SEARCH_FIELD;
+import static com.test.userinterface.GoogleHomePage.SEARCH_FIELD;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class SearchInformation implements Task {

@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/feature/search/search_in_duckduckgo.feature",
+        features = "src/test/resources/feature/search/search_in_google.feature",
         glue = {"com/test/stepdefinitions"}
 )
-public class DuckDuckGoRunner {
+public class GoogleRunner {
 }

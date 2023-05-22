@@ -3,7 +3,7 @@ package com.test.userinterface;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-public class HomeDuckDuckGoPage {
+public class GoogleHomePage {
 
-    public static final Target SEARCH_FIELD = Target.the("Search field").located(By.id("search_form_input_homepage"));
+    public static final Target SEARCH_FIELD = Target.the("Search field").located(By.xpath("//textarea[@title='Buscar']"));
 }

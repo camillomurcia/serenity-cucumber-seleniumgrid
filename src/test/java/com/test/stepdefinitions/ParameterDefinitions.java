@@ -6,6 +6,8 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
+import static com.test.utils.ValidateEnvironmentsVariable.validateEnvironmentVariable;
+
 public class ParameterDefinitions {
 
     @ParameterType(".*")
@@ -14,7 +16,8 @@ public class ParameterDefinitions {
     }
 
     @Before
-    public void setTheStage(){
+    public void setTheStage() throws Exception {
+        validateEnvironmentVariable();
         OnStage.setTheStage(new OnlineCast());
     }
 }
