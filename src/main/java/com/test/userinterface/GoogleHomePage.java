@@ -5,5 +5,5 @@ import org.openqa.selenium.By;
 
 public class GoogleHomePage {
 
-    public static final Target SEARCH_FIELD = Target.the("Search field").located(By.xpath("//textarea[@title='Buscar']"));
+    public static final Target SEARCH_FIELD = Target.the("Search field").located(By.name("q"));
 }
